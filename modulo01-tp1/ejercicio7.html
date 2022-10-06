@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>modelo1 </title>
+</head>
+
+<body>
+    <script>
+        function reverse (str) {
+    if (str === "") {
+        return "";
+    } else {
+        return reverse(str.substr(1)) + str.charAt(0);
+    }
+}
+
+let reverseStringIs=reverse("ingrese el texto");
+document.write(reverseStringIs)
+    </script>
+</body>
+
+</html>
