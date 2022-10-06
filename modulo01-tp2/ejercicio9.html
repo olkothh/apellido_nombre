@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD>
+	<TITLE>SIN_TITULO</TITLE>
+</HEAD>
+
+<BODY onload="sin_titulo();">
+	<SCRIPT type="text/javascript">
+
+		function sin_titulo() {
+			var x = new Number();
+			var vector = new Number();
+			var suma = new Number();
+			var mayores = new Number();
+			var promedio = new Number();
+			var vector = new Array(6);
+			for (x = 1; x <= 6; x++) {
+				vector[x - 1] = Math.floor(Math.random() * 10) + 1;
+				document.write(vector[x - 1], '<BR/>');
+			}
+			suma = 0;
+			for (x = 1; x <= 6; x++) {
+				suma = suma + vector[x - 1];
+			}
+			promedio = suma / 6;
+			document.write("el promedio de las notas es: ", promedio, '<BR/>');
+			if (promedio < 6) {
+				document.write("nos vemos en marzo", '<BR/>');
+			}
+		}
+
+	</SCRIPT>
+</BODY>
+
+</HTML>
