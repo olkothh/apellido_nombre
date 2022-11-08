@@ -39,7 +39,7 @@ ID_PERSONA INT NOT null unique,
 ID_RESERVA INT NOT NULL UNIQUE,
 primary key (ID_COCHE),
 constraint foreign key (ID_PERSONA) references PERSONA(ID_PERSONA),
-constraint foreign key (ID_RESERVA) references reservas(ID_RESERVA)
+constraint foreign key (ID_RESERVA) references reserva(ID_RESERVA)
 );
 insert INTO COCHE VALUES (0001,"AA 236 AB","ONIX","ROJO","CHEVROLET",3.500,"25 lts");
 insert INTO COCHE VALUES (0002,"AB 296 AC","CRUZE","NEGRO","CHEVROLET",5.000,"20 lts");
