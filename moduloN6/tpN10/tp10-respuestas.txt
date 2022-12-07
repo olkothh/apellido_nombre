@@ -1,0 +1,55 @@
+Ejercicio 1:
+a - Describe dos usos o funciones que proporciona la declaración DOCTYPE en una página web.
+
+el doctype HTML no es sino la declaración del tipo de documento que vamos a realizar y
+ del estándar en el que la página ha sido creada para cumplirlo, ya sea tanto HTML como XHTML.
+La declaración nos remite a la versión de (X)HTML que usa dicho documento. 
+De esta manera los navegadores tienen la posibilidad de conocer qué sintaxis y 
+gramática usan y así los validadores de estándares puedan comprobar su validez.
+
+b - Para que se utilizan las siguientes etiquetas:
+
+<head> </head> provee información general acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos.
+
+<title> </title> define el título del documento que se muestra en un browser la barra de título o la pestaña de una página. 
+                 Solo contiene texto; las etiquetas dentro del elemento se ignoran.
+
+<meta> Sirve para aportar información sobre el documento.
+
+<style> </style> estilo. Es el elemento encargado de indicar la información de estilo.
+
+<body> </body>representa el contenido de un documento HTML. Solo puede haber un elemento <body> en un documento.
+
+<h1>,<h2>,<h3>,<h4>,<h5>,<h6> Los elementos de encabezado implementan seis niveles de encabezado del documento,
+                              <h1> es el más importante, y <h6>, el menos importante. 
+                              Un elemento de encabezado describe brevemente el tema de la sección que presenta
+
+<a> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo,
+    o cualquier otra URL.
+
+<strong> El elemento strong es el apropiado para marcar con especial énfasis las partes más importantes de un texto.
+         Sus etiquetas son: <strong> y </strong> (ambas obligatorias)
+
+<br> produce un salto de línea en el texto 
+
+<ul> lista no ordenada . crea una lista no ordenada.
+
+<li> del ingles item list o elemento de lista declara cada uno de los elementos de una lista.
+
+<p> (párrafo) es el apropiado para distribuir el texto en párrafos.
+    Sus etiquetas son: <p> y </p> (la de cierre es opcional).
+
+<span> abarcar. Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.
+
+<table> </table> representa datos en dos o mas dimensiones.
+<tr> </tr> define una fila de celdas en una tabla
+<td> </td>define la celda de una tabla que contiene datos. Esta participa en el modelo de tablas.
+
+<img> representa una imagen en el documento.
+
+c- La etiqueta <script> puede ir dentro de las etiquetas de de <body> o <head>, hay alguna
+   diferencia donde pueda ir?
+
+   La etiqueta <script> puede ir tanto en <body> como  en <head>, pero se suele utilizar al final de <body> 
+   para mejorar el proceso de carga y asi optimizar la experiencia de la pagina.
+
