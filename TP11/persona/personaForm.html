@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../estilos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+    <h1 class="encabezado">
+        <img src="../img/silicon transparente.png" class="imgcabecera" />
+        Portal Silicon Full Stack
+    </h1>
+    <div class="menu">
+        <a href="../index.html" class="menu-item">
+            <span class="material-symbols-outlined">
+                home
+            </span>
+            Inicio
+        </a>
+        <a href="persona/personaForm.html" class="menu-item">Gestion de personas</a>
+        <a href="persona/personaTabla.html" class="menu-item">Listar personas</a>
+    </div>
+    <h1>
+        <span class="material-symbols-outlined">
+            group
+        </span>
+        lista de personas
+    </h1>
+    <form>
+        <fieldset>
+        <legend>Datos Personales:</legend>     
+        <label for="DNI">*DNI:</label><br>
+        <input type="number" id="DNI" name="DNI"><br>
+        <label for="name">*Nombre:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="lname">*Apellido:</label><br>
+        <input type="text" id="lname" name="lname">
+        <hr>
+        <legend>Sexo:</legend>
+        <input type="radio" id="Masc" name="Selec_sex" value="Masculino">
+        <label for="Masculino">Masculino</label><br>
+        <input type="radio" id="Fem" name="Selec_sex" value="Femenino">
+        <label for="Femenino">Femenino</label><br>
+        <input type="radio" id="Otro_sex" name="Selec_sex" value="Otro">
+        <label for="Otro">Otro</label><br><br>
+        <legend>Fecha de nacimiento:</legend>
+        <label for="nacimiento">Nacimiento:</label>
+        <input type="date" id="nacimiento" name="nacimiento">
+      </form>
+    </fieldset>
+
+      <form>
+        <fieldset>
+            <legend>Datos de Acceso</legend>
+            <label for="Email"> correo electronico:</label><br>
+        <input type="email" id="e_mail" name="Email"><br>
+        <label for="pwd">contraseña:</label><br>
+        <input type="password" id="pwd" name="pwd">
+            
+        </fieldset>
+      </form>
+
+
+<form>
+    <fieldset>
+        <legend>Datos Academicos</legend>
+           <select>
+            <option value="Primaria">Primaria</option>
+            <option value="secundaria">secundaria</option>
+            <option value="terciario">terciario</option>
+            <option value="universitario">universitario</option>
+            <option value="post-grado">post-grado</option>
+           </select>
+          </form>
+    </fieldset>
+</form> 
+
+<form>
+    <fieldset>
+        <legend>Acciones</legend>
+        <button type="button" onclick="alert('la persona se creo con exito')"> ⊕ crear persona</button>
+        <button type="button" onclick="alert('los datos fueron limpiados')">limpiar datos</button>
+    </fieldset>
+</form>
+
+
+
+
+
+   
+     
+
+</body>
+
+
+</html>

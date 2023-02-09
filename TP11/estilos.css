@@ -1,0 +1,68 @@
+.encabezado {
+
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: darkblue;
+    border: 2px solid darkblue;
+    margin: 0px;
+}
+
+
+.imgcabecera {
+    position: absolute;
+    left: 20px;
+    height: 45px;
+    vertical-align: middle;
+
+}
+
+
+.menu {
+    padding: 5px;
+    text-align: center;
+    background-color: #e4e4e4;
+}
+
+.menu-item {
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 25px;
+    color: darkblue;
+}
+
+h1 {
+    background-color: #e4e4e4;
+    margin: 0px;
+}
+
+table { 
+    border-collapse: collapse;     
+    font-size: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td,th {
+    border: 1px solid black;
+}
+th{
+    background-color: #e4e4e4;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   /* height: 9%;
+    border: 1px solid black;
+    esta es otra forma de colocar la barra horizontal
+    */
+    
+}
+
+button{
+    font-size: 25px;
+    
+}
