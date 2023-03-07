@@ -1,0 +1,30 @@
+.encabezado {
+
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: darkblue;
+    border: 2px solid darkblue;
+    margin: 0px;
+}
+
+
+.imgcabecera {
+    position: absolute;
+    left: 20px;
+    height: 45px;
+    vertical-align: middle;
+
+}
+
+h1 {
+    background-color: #e4e4e4;
+    margin: 0px;
+}
+
+ul.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
